@@ -126,6 +126,7 @@ source-repository head
 
 {-# START_FILE .gitignore #-}
 dist
+dist-newstyle
 cabal-dev
 *.o
 *.hi
@@ -136,4 +137,4 @@ cabal-dev
 .cabal-sandbox/
 cabal.sandbox.config
 .stack-work/
-
+cabal.project.local
