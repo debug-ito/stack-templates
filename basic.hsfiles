@@ -140,3 +140,9 @@ cabal-dev
 cabal.sandbox.config
 .stack-work/
 cabal.project.local*
+
+{-# START_FILE cabal.project #-}
+-- For doctest
+write-ghc-environment-files: ghc8.4.4+
+
+packages: .
