@@ -140,6 +140,7 @@ cabal-dev
 cabal.sandbox.config
 .stack-work/
 cabal.project.local*
+.ghc.environment*
 
 {-# START_FILE cabal.project #-}
 -- For doctest
