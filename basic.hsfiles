@@ -59,7 +59,7 @@ license-file:           LICENSE
 -- synopsis:               
 -- description:            
 -- category:               
-cabal-version:          >= 2.0
+cabal-version:          2.0
 build-type:             Simple
 extra-source-files:     README.md, ChangeLog.md
 homepage:               https://github.com/{{github-username}}/{{name}}
