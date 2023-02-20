@@ -94,7 +94,14 @@ library
 --   if flag(static)
 --     ld-options:         -static
 --   -- other-modules:        
---   default-extensions:   OverloadedStrings, StrictData
+--   default-extensions:   OverloadedStrings, StrictData, DuplicateRecordFields, DataKinds
+--                         -- subset of GHC2021
+--                         , BangPatterns, ConstraintKinds
+--                         , DeriveDataTypeable, DeriveFoldable, DeriveFunctor, DeriveGeneric, DeriveTraversable
+--                         , FlexibleContexts, FlexibleInstances, GeneralisedNewtypeDeriving
+--                         , MultiParamTypeClasses, NamedFieldPuns, NamedWildCards, NumericUnderscores
+--                         , PolyKinds, RankNTypes, ScopedTypeVariables, StandaloneDeriving
+--                         , TupleSections, TypeApplications, TypeOperators, TypeSynonymInstances
 --   -- other-extensions:     
 --   build-depends:        base
 
