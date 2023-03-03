@@ -103,7 +103,7 @@ library
 --                         , PolyKinds, RankNTypes, ScopedTypeVariables, StandaloneDeriving
 --                         , TupleSections, TypeApplications, TypeOperators, TypeSynonymInstances
 --   -- other-extensions:     
---   build-depends:        base
+--   build-depends:        base, {{name}}
 
 test-suite spec
   type:                 exitcode-stdio-1.0
