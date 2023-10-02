@@ -73,7 +73,7 @@ library
                         -- subset of GHC2021
                         , BangPatterns, ConstraintKinds
                         , DeriveDataTypeable, DeriveFoldable, DeriveFunctor, DeriveGeneric, DeriveTraversable
-                        , FlexibleContexts, FlexibleInstances, GeneralisedNewtypeDeriving
+                        , FlexibleContexts, FlexibleInstances, GeneralizedNewtypeDeriving
                         , MultiParamTypeClasses, NamedFieldPuns, NamedWildCards, NumericUnderscores
                         , PolyKinds, RankNTypes, ScopedTypeVariables, StandaloneDeriving
                         , TupleSections, TypeApplications, TypeOperators, TypeSynonymInstances
@@ -98,7 +98,7 @@ library
 --                         -- subset of GHC2021
 --                         , BangPatterns, ConstraintKinds
 --                         , DeriveDataTypeable, DeriveFoldable, DeriveFunctor, DeriveGeneric, DeriveTraversable
---                         , FlexibleContexts, FlexibleInstances, GeneralisedNewtypeDeriving
+--                         , FlexibleContexts, FlexibleInstances, GeneralizedNewtypeDeriving
 --                         , MultiParamTypeClasses, NamedFieldPuns, NamedWildCards, NumericUnderscores
 --                         , PolyKinds, RankNTypes, ScopedTypeVariables, StandaloneDeriving
 --                         , TupleSections, TypeApplications, TypeOperators, TypeSynonymInstances
@@ -115,7 +115,7 @@ test-suite spec
                         -- subset of GHC2021
                         , BangPatterns, ConstraintKinds
                         , DeriveDataTypeable, DeriveFoldable, DeriveFunctor, DeriveGeneric, DeriveTraversable
-                        , FlexibleContexts, FlexibleInstances, GeneralisedNewtypeDeriving
+                        , FlexibleContexts, FlexibleInstances, GeneralizedNewtypeDeriving
                         , MultiParamTypeClasses, NamedFieldPuns, NamedWildCards, NumericUnderscores
                         , PolyKinds, RankNTypes, ScopedTypeVariables, StandaloneDeriving
                         , TupleSections, TypeApplications, TypeOperators, TypeSynonymInstances
